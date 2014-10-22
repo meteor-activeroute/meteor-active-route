@@ -33,7 +33,7 @@ isActive = (type, inverse = false) ->
 
 testExp = (route, exp, isPath = false) ->
   if isPath
-    pattern = route.path()
+    pattern = Router.current().path
 
   else
     pattern = route.name
