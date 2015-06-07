@@ -1,3 +1,8 @@
+## [2.0.5] - 2015-06-08
+
+  * Backward compatibility with `ostrio:iron-router-helpers` package
+  * Now `ostrio:iron-router-helpers` package deprecated and fully implies (inherits) `zimme:active-route`
+
 ## [2.0.4] - 2015-06-06
 
   * Add tests for global configuration

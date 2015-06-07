@@ -33,10 +33,9 @@ test = (value, pattern) ->
 
   else if Match.test pattern, String
     if share.config.equals 'caseSensitive', false
-      value = value.toLowerCase()
-      pattern = pattern.toLowerCase()
-
-    result = value is pattern
+      result = (new RegExp(pattern, 'i')).test value
+    else
+      result = (new RegExp(pattern)).test value
 
   result ?= false
 
