@@ -10,7 +10,7 @@ the currently active route.
 
 ## Package rename
 
-Because of support for `meteorhacks:flow-router` I've decided to rename
+Because of support for `kadira:flow-router` I've decided to rename
 `zimme:iron-router-active` to `zimme:active-route` with version `2.0.0`.
 
 ## Install
