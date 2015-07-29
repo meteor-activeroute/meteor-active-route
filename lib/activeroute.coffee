@@ -7,14 +7,14 @@ checkArgument = (arg) ->
     throw new Error errorMessages.invalidArgument
 
 checkRouterPackages = ->
-  fr = Package['meteorhacks:flow-router']
+  fr = Package['kadira:flow-router']
   ir = Package['iron:router']
   throw new Error errorMessages.noSupportedRouter unless ir or fr
 
 errorMessages =
   noSupportedRouter:
     'No supported router installed. Please install ' +
-    'iron:router or meteorhacks:flow-router.'
+    'iron:router or kadira:flow-router.'
 
   invalidArgument: 'Invalid argument, must be String or RegExp.'
 
