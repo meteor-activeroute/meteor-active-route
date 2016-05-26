@@ -1,8 +1,10 @@
 {
   "devDependencies": {
-    "spacejam": "^1.2.2"
+    "spacejam": "^1.6.1-rc.1"
   },
+  "license": "MIT",
+  "repository": "https://github.com/zimme/meteor-active-route",
   "scripts": {
-    "test": "node_modules/.bin/spacejam test-packages --driver-package practicalmeteor:mocha-console-reporter ./"
+    "test": "node_modules/.bin/spacejam test-packages --driver-package practicalmeteor:mocha-console-runner ./"
   }
 }
